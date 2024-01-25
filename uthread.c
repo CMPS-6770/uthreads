@@ -294,7 +294,7 @@ static void create_first_thr(uthread_func_t firstFunc, long argc,
     masked = 1;
 
     // Set up uthread context for main thread
-    // This does what uhtread_alloc does, but without a valid ut_curthr
+    // The next two lines do what uthread_alloc does.
     uthread_id_t tid = 0;
     uthreads[0].ut_state = UT_TRANSITION;
     ut_curthr = &uthreads[tid];
