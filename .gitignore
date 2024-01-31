@@ -34,3 +34,8 @@ qemu/
 # cscope files
 cscope.*
 ncscope.*
+
+# executables
+test
+non_preemptive_test
+preemptive_test

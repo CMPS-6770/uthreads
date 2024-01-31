@@ -7,7 +7,7 @@ OFILES		= uthread.o \
 			  uthread_cond.o uthread_sched.o 
 
 # user executables, test code... wowza
-EXECS		= test.o
+EXECS		= test.o non_preemptive_test.o preemptive_test.o
 
 CC			= gcc
 
